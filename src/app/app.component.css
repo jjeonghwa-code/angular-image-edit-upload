@@ -1,0 +1,80 @@
+.add-image {
+    background-color: transparent;
+    border: 2px dashed #cdd4d9;
+    color: #8394a1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.add-image:active {
+    color: #8394a1;
+	position:relative;
+	top:1px;
+}
+
+.add-image mat-icon {
+    margin-left: -70px;
+    margin-top: 45px;
+}
+
+input[type="file"] {
+    visibility: hidden;
+}
+
+label.cabinet{
+	display: block;
+	cursor: pointer;
+}
+
+label.cabinet input.file{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    margin-top:-30px;
+}
+
+figure figcaption {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    margin-top: -30px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 5px #000;
+}
+
+.center-block {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
