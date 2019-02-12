@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.upload-button {
+    text-align: center;
+    display: inline-block;
+}
+
 .add-image:active {
     color: #8394a1;
 	position:relative;

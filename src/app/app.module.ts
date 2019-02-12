@@ -42,6 +42,7 @@ import {
   MatTooltipModule,
   MatStepperModule
 } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -59,6 +60,7 @@ import {
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
+    HttpClientModule,
     FlexLayoutModule,
     MatAutocompleteModule,
     MatButtonModule,
